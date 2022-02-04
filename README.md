@@ -20,6 +20,8 @@
 
 ## To create package.json file without typing out anything else
 ### npm init --yes
+### or,
+### npm init -y
 
 <br>
 
@@ -32,11 +34,15 @@
 
 ## To install a specific package
 ### npm install "package_name"
+### or,
+### npm i "package_name"
 
 <br> 
 
 ## To install a specific package just for development and not for production
-### npm install lodash --save-dev
+### npm install "package_name" --save-dev
+### or,
+### npm i "package_name" -D
 
 <br>
 
@@ -61,11 +67,19 @@
 <br>
 
 
+## To install a specific version of package
+### npm install "package_name@version"
+### Example - 3.4.1, here 3 is major version, 4 is minor version and 1 is patch version number
 
+<br>
 
+## To update a specific package
+### npm install "package_name@latest"
 
+<br>
 
-
+## To remove any packages not listed in package.json
+### npm prune
 
 
 

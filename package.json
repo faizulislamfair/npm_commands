@@ -17,10 +17,11 @@
     "url": "https://github.com/faizulislamfair/npm_package_commands/issues"
   },
   "homepage": "https://github.com/faizulislamfair/npm_package_commands#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
   "devDependencies": {
     "moment": "^2.29.1"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21"
   }
 }
