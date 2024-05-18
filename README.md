@@ -5,8 +5,6 @@
 </div>
 
 
-<br>
-
 ## npm version checking
 ### npm -v
 
